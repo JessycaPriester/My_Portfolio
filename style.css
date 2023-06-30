@@ -16,7 +16,7 @@ header {
 
 /* Center image and round the edges */
 img {
-  width: 60%;
+  width: 200px;
   margin: auto;
   display: block;
   border-radius: 10px;
