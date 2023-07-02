@@ -28,7 +28,7 @@ img {
   text-align: center;
 }
 
-/* Pseudo-Class */
+/* Pseudo-Class. Based on the state of the link, change the color */
 a:link {
   color: blue;
 }
