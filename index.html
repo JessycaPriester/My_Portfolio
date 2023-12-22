@@ -1,96 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>My Portfolio</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
 </head>
+<body class="w3-theme-l5">
 
-<body>
-<!--Header-->
-  <!-- Insert name and job -->
-  <header>
-    <h1>Jessyca Priester</h1>
-    <p>Software Developer</p>
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4">Jessyca Priester</a>
+  <a href="https://www.linkedin.com/in/jessyca-priester-a5096325b/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+  <a href="https://github.com/JessycaPriester" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-github"></i></a>
+  <a href="mailto:jessyca_priester@yahoo.com?subject=You're%20Hired!" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+ </div>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">My Profile</h4>
+         <p class="w3-center"><img src="/images/IMG_9276.jpg" class="w3-circle" style="height:106px;width:106px" alt="Profile Picture"></p>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>Software Engineer</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i>Atlanta, GA</p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Interests --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Interests</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">Painting</span>
+            <span class="w3-tag w3-small w3-theme-d4">Reading</span>
+            <span class="w3-tag w3-small w3-theme-d3">Learning</span>
+            <span class="w3-tag w3-small w3-theme-d2">Coding</span>
+            <span class="w3-tag w3-small w3-theme-d1">Pottery</span>
+            <span class="w3-tag w3-small w3-theme">Cars</span>
+            <span class="w3-tag w3-small w3-theme-l1">Puzzles</span>
+            <span class="w3-tag w3-small w3-theme-l2">Food</span>
+            <span class="w3-tag w3-small w3-theme-l3">Traveling</span>
+            <span class="w3-tag w3-small w3-theme-l4">Games</span>
+            <span class="w3-tag w3-small w3-theme-l5">Working Out</span>
+          </p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong>Hey!</strong></p>
+        <p>People are looking at your portfolio. I think they want to hire you!</p>
+      </div>
     
-  </header>
-
-<!--Main-->
-  <!--Insert profile picture-->
-  <main>
-    <img src="Images/IMG_9276.jpg" alt="Profile picture" class="align-center" >
-    <!-- Insert introduction -->
-    <h2 class="align-center">Hi! My name is Jessyca Priester</h2>
-    <p>I am a software developer living in Atlanta, Georgia.</p>
-    <p>Take a look at my website to get to know a little bit more about me, and feel free to contact me.</p>
-
-  <hr>
+    <!-- End Left Column -->
+    </div>
     
-    <article>
-    <!--Insert about me. Incldue background and hobbies -->
-      <h3 class="align-center">About Jessyca</h3>
-      <p>After attending college, I became an automotive technician. Within three years of entering the field, I earned the title of Master Technician. My favorite part of my job is diagnosing, due to it challenging my problem solving skills. In my spare time I took up coding, and found that it brought me a similar joy, and I've been in love with it ever since.</p>
-      <p>I am a recent Thinkful graduate, and I am so excited to continue my journey as a software developer!</p>
-      <p>If you're looking to higher a passionate hardworking developer with an unquenchable thirst to learn, contact me! I am so excited to start this new journey and build great things with a great team.</p>   
-      <p>In my free time I like:</p>
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <h4><strong>Hi! My name is Jessyca Priester</strong></h4><br>
+        <hr class="w3-clear">
+        <p>I am a software developer living in Atlanta, Georgia.</p>
+        <p>Take a look at my website to get to know a little bit more about me, and feel free to contact me.</p>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <h4><strong>About Jessyca</strong></h4><br>
+        <hr class="w3-clear">
+        <p>After attending college, I became an automotive technician. Within three years of entering the field, I earned the title of Master Technician. My favorite part of my job is diagnosing, due to it challenging my problem solving skills. In my spare time I took up coding, and found that it brought me a similar joy, and I've been in love with it ever since.</p>
+        <p>I am a recent Thinkful graduate, and I am so excited to continue my journey as a software developer!</p>
+        <p>If you're looking to higher a passionate hardworking developer with an unquenchable thirst to learn, contact me! I am so excited to start this new journey and build great things with a great team.</p>
+        <p>In my free time I like:</p>
         <ul>
           <li>Pretending to be a painter</li>
           <li>Reading books about far away pretend lands</li>
-          <li>Picking heavy things up and putting them down (Gym)</li>
+          <li>Picking heavy things up and putting them down (gym)</li>
+          <li>Frying by brain trying to learn something new</li>
         </ul>
-    </article>
+      </div>  
 
-  <hr>
-
-    <article>
-      <!--Insert projects-->
-      <h3 class="align-center">Projects</h3>
-      <p>I have created so many projects that I am so proud of. I wish I could show them all here! But here are just a few of my pride and joys that I have completed recently.</p>
-      <br>
-      <h4><a href="https://starter-restaurant-reservation-frontend-jessycapriester.vercel.app/dashboard">Restaurant Reservation Application</a></h4>
-      <p>This application is for restaurant personnel. It allows thems to create, edit, list, search, track, and seat reservations. The system allows manages tables's availabilties and capacities. Some of the technologies I used were React.js, CSS, Node.js, Express, PostgreSQL, Node.js, Express, and APIs. Feel free to check out my site, and add a reservation of your own! </p>
-      <img src="Images/ReservationAppHome.png" alt="Reservation Application Homescreen" class="align-center" >
-      <br>
-      <h4><a href="https://recipe-tracker-lo9u.onrender.com/">Recipe Tracker Application</a></h4>
-      <p>This application allows users to create and save new recipies. It's a great way to keep track of all those family recipes collecting dust in your drawer! As someone who loves to cook and collect recipecs, I love using this application to keep my recipes organized, and all in one place. Some of the technologies I used were React, HTML5, CSS, and Bootstrap.</p>
-      <img src="Images/RecipeTrackerHome.png" alt="Recipe Tracker Application Homescreen" class="align-center">
-      <h4><a href="https://jessycapriester.github.io/starter-thinkfulbnb-main/">AirBnb Frontend Application</a></h4>
-      <p>This application is a lookalike of AirBnb static website with responsive views for mobile, tablets, and desktop. Some of the technologies I used were HTML, CSS, and Flexbox.</p>
-      <img src="Images/ThinkfulbnbHome.png" alt="AirBnb Frontend Application Homescreen">
-      <br>
-      <p>If you're interested in seeing any more of my work, feel free to check out my <a href="https://github.com/JessycaPriester">github</a></p>
-    </article>
-  
-  <hr>
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <h4><strong>Projects</strong></h4><br>
+        <hr class="w3-clear">
+        <p>I have created so many projects that I am so proud of. I wish I could show them all here! But here are just a few of my pride and joys that I have completed recently.</p><br>
+        <h5><u>Restaurant Reservation Application</u></h5>
+        <p>This application is for restaurant personnel. It allows thems to create, edit, list, search, track, and seat reservations. The system allows manages tables's availabilties and capacities. Some of the technologies I used were React.js, CSS, Node.js, Express, PostgreSQL, Node.js, Express, and APIs. Feel free to check out my site, and add a reservation of your own! </p>
+        <img src="/images/restaurant-application-homepage.png" style="width:100%" class="w3-margin-bottom"> <br>
+        <a href="https://starter-restaurant-reservation-frontend-jessycapriester.vercel.app/dashboard"><button type="button" class="w3-button w3-theme-d1 w3-margin-bottom">Check Me Out!</button></a>
+        <h5><u>Recipe Tracker Application</u></h5>
+        <p>This application allows users to create and save new recipies. It's a great way to keep track of all those family recipes collecting dust in your drawer! As someone who loves to cook and collect recipecs, I love using this application to keep my recipes organized, and all in one place. Some of the technologies I used were React, HTML5, CSS, and Bootstrap.</p>
+        <img src="/images/recipe-application-homepage.png" style="width:100%" class="w3-margin-bottom"> <br>
+        <a href="https://recipe-tracker-lo9u.onrender.com/"><button type="button" class="w3-button w3-theme-d1 w3-margin-bottom">Check Me Out!</button></a>
+        <h5><u>AirBnb Frontend Application</u></h5>
+        <p>This application is a lookalike of AirBnb static website with responsive views for mobile, tablets, and desktop. Some of the technologies I used were HTML, CSS, and Flexbox.</p>
+        <img src="/images/thinkfulbnb-application-homepage.png" style="width:100%" class="w3-margin-bottom"> <br>
+        <a href="https://jessycapriester.github.io/starter-thinkfulbnb-main/"><button type="button" class="w3-button w3-theme-d1 w3-margin-bottom">Check Me Out!</button></a>
+        <p>If you're interested in seeing any more of my work, feel free to check out my <a href="https://github.com/JessycaPriester">GitHub</a></p>
+      </div> 
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <h4>Contact Me</h4><br>
+        <hr class="w3-clear">
+        <p>I would love to hear from you! Please feel free to contact or follow me.</p>
+        <ol>
+          <!--Insert link for email address -->
+          <li><a href="mailto:jessyca_priester@yahoo.com?subject=You're%20Hired!">Email Me</a></li>
+          <!-- Insert link for LinkedIn -->
+          <li><a href="https://www.linkedin.com/in/jessyca-priester-a5096325b/">LinkedIn</a></li>
+          <!-- Insert link for LinkedIn -->
+          <li><a href="https://github.com/JessycaPriester">GitHub</a></li>
+        </ol>
+      </div>  
+      
+    <!-- End Middle Column -->
+    </div>
     
-    <article>
-    <!-- Insert contact information --> 
-      <h3 class="align-center">Contact Jessyca</h3>
-      <p>I would love to hear from you! Please feel free to contact or follow me.</p>
-      <ol>
-        <!--Insert link for email address -->
-        <li><a href="mailto:jessyca_priester@yahoo.com?subject=You're%20Hired!">Email Me</a></li>
-        <!-- Insert link for LinkedIn -->
-        <li><a href="https://www.linkedin.com/in/jessyca-priester-a5096325b/">LinkedIn</a></li>
-        <!-- Insert link for LinkedIn -->
-        <li><a href="https://github.com/JessycaPriester">GitHub</a></li>
-      </ol>
-    </article>
-
-    <!-- Footer -->
-    <footer>
-      <p>Created By: Jessyca Priester</p>
-    </footer>
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Upcoming Events:</p>
+          <p><strong>Hiring Jessyca!</strong></p>
+          <p>Today 2:00pm</p>
+          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+          <p>Skills</p>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>RESTful APIs</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+    <!-- End Right Column -->
+    </div>
     
-  </main>
+  <!-- End Grid -->
+  </div>
   
+<!-- End Page Container -->
+</div>
+<br>
 
-
-  
-  
-<script src="script.js"></script>
+<!-- Footer -->
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+  <h5>Footer</h5>
+</footer>
 </body>
-
-</html>
+</html> 
